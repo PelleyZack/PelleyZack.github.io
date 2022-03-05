@@ -28,7 +28,7 @@ img {
 	object-fit: cover;
 }
 p{
-    color: black;
+    color: #a7b7cf;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -38,22 +38,22 @@ p{
 .section-tile{
     font-size: 4rem;
     font-weight: 300;
-    color: black;
+    color: #a7b7cf;
     margin-bottom:10px ;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
 }
 .section-tile span {
-    color: RoyalBlue;
+    color: #a7b7cf;
 
 }
 .cta{
     display: inline-block;
     padding: 10px 30px;
-    color: white;
+    color: #a7b7cf;
     background-color: transparent;
-    border: 2px solid RoyalBlue;
+    border: 2px solid #a7b7cf;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -62,16 +62,16 @@ p{
     transition-property: background-color, color;
 }
 .cta:hover{
-    color: white;
-    background-color: RoyalBlue;
+    color: #a7b7cf;
+    background-color: #a7b7cf;
 }
 .brand h1{
     font-size: 3rem;
     text-transform: uppercase;
-    color: white;
+    color: #a7b7cf;
 }
 .brand h1 span{
-    color: RoyalBlue;
+    color: #a7b7cf;
 }
 
 /* Header Section */
@@ -122,7 +122,7 @@ p{
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: white;
+    color: #a7b7cf;
     text-transform:uppercase ;
     padding: 20px;
     display: block;
@@ -146,7 +146,7 @@ p{
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-    color:RoyalBlue;
+    color:#a7b7cf;
 }
 #header .hamburger{
     height: 60px;
@@ -176,7 +176,7 @@ p{
     height: 2px;
     width: 30px;
     position: relative;
-    background-color: white;
+    background-color: #a7b7cf;
     z-index: -1;
 }
 #header .hamburger .bar::after,
@@ -186,7 +186,7 @@ p{
     height: 100%;
     width: 100%;
     left: 0;
-    background-color: white;
+    background-color: #a7b7cf;
     transition: .3s ease;
     transition-property: top, bottom;
 }
@@ -219,7 +219,7 @@ p{
     top: 0;
     height:100%;
     width: 100%;
-    background-color: black;
+    background-color: #a7b7cf;
     opacity: .7;
     z-index: -1;
 }
@@ -234,7 +234,7 @@ p{
     width: fit-content;
     font-size: 4rem;
     position: relative;
-    color: transparent;
+    color: #a7b7cf;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
 }
@@ -254,7 +254,7 @@ p{
     left: 0;
     height: 100%;
     width: 0;
-    background-color: RoyalBlue;
+    background-color: #a7b7cf;
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
 }
@@ -305,7 +305,7 @@ p{
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    color: white;
+    color: #a7b7cf;
 }
 #projects .project-info h1{
     font-size: 4rem;
@@ -318,7 +318,7 @@ p{
     margin-top: 10px;
 }
 #projects .project-info p{
-    color: white;
+    color: #a7b7cf;
 }
 #projects .project-img{
     flex-basis: 100%;
@@ -370,7 +370,7 @@ p{
     margin-bottom: 20px;
 }
 #about .col-right .cta{
-    color: black;
+    color: #a7b7cf;
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem; 
@@ -449,7 +449,7 @@ p{
     padding-bottom: 10px;
 }
 #footer h2{
-    color: white;
+    color: #a7b7cf;
     font-weight: 500;
     font-size: 1.8rem;
     letter-spacing: .1rem;
@@ -474,7 +474,7 @@ p{
     filter: grayscale(0)
 }
 #footer p{
-    color: white;
+    color: #a7b7cf;
     font-size: 1.3rem;
 }
 /* End Footer */
@@ -503,13 +503,13 @@ p{
 
 @keyframes text_reveal{
     100%{
-        color: white;
+        color: #a7b7cf;
     }
 }
 
 @keyframes text_reveal_name{
     100%{
-        color: RoyalBlue;
+        color: #a7b7cf;
         font-weight: 500;
     }
 }
