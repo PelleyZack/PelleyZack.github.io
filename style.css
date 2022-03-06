@@ -338,7 +338,6 @@ p{
 }
 #projects .project-img img{
     transition: 1 ease transform;
-	transform: scale(1.1)
 }
 #projects .project-item:hover .project-img img{
 }
