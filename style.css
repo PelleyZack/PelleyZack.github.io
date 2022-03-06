@@ -340,6 +340,7 @@ p{
     transition: 1 ease transform;
 }
 #projects .project-item:hover .project-img img{
+	   transform: scale(1.1);
 }
 /* End of Projects Section */
 
