@@ -28,7 +28,7 @@ img {
 	object-fit: cover;
 }
 p{
-    color: #a7b7cf;
+    color: black;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -38,7 +38,7 @@ p{
 .section-tile{
     font-size: 4rem;
     font-weight: 300;
-    color: #a7b7cf;
+    color: black;
     margin-bottom:10px ;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -51,9 +51,9 @@ p{
 .cta{
     display: inline-block;
     padding: 10px 30px;
-    color: #a7b7cf;
+    color: white;
     background-color: transparent;
-    border: 2px solid #a7b7cf;
+    border: 2px solid #a7b7cf ;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -62,13 +62,13 @@ p{
     transition-property: background-color, color;
 }
 .cta:hover{
-    color: #a7b7cf;
+    color: white;
     background-color: #a7b7cf;
 }
 .brand h1{
     font-size: 3rem;
     text-transform: uppercase;
-    color: #a7b7cf;
+    color: white;
 }
 .brand h1 span{
     color: #a7b7cf;
@@ -122,7 +122,7 @@ p{
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: #a7b7cf;
+    color: white;
     text-transform:uppercase ;
     padding: 20px;
     display: block;
@@ -176,7 +176,7 @@ p{
     height: 2px;
     width: 30px;
     position: relative;
-    background-color: #a7b7cf;
+    background-color: white;
     z-index: -1;
 }
 #header .hamburger .bar::after,
@@ -186,7 +186,7 @@ p{
     height: 100%;
     width: 100%;
     left: 0;
-    background-color: #a7b7cf;
+    background-color: white;
     transition: .3s ease;
     transition-property: top, bottom;
 }
@@ -219,7 +219,7 @@ p{
     top: 0;
     height:100%;
     width: 100%;
-    background-color: #a7b7cf;
+    background-color: black;
     opacity: .7;
     z-index: -1;
 }
@@ -234,7 +234,7 @@ p{
     width: fit-content;
     font-size: 4rem;
     position: relative;
-    color: #a7b7cf;
+    color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
 }
@@ -305,7 +305,7 @@ p{
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    color: #a7b7cf;
+    color: white;
 }
 #projects .project-info h1{
     font-size: 4rem;
@@ -318,10 +318,10 @@ p{
     margin-top: 10px;
 }
 #projects .project-info p{
-    color: #a7b7cf;
+    color: white;
 }
 #projects .project-img{
-    flex-basis: 100%;
+    flex-basis: 50%;
     height: 500px;
     overflow: hidden;
     position: relative;
@@ -337,7 +337,7 @@ p{
     opacity: .7;
 }
 #projects .project-img img{
-    transition: 1 ease transform;
+    transition: .3 ease transform;
 }
 #projects .project-item:hover .project-img img{
     transform: scale(1.1);
@@ -370,7 +370,7 @@ p{
     margin-bottom: 20px;
 }
 #about .col-right .cta{
-    color: #a7b7cf;
+    color: black;
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem; 
@@ -388,7 +388,7 @@ p{
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid RoyalBlue;
+    border: 7px solid #a7b7cf;
     z-index: -1;
 }
 /* End of About Section */
@@ -449,7 +449,7 @@ p{
     padding-bottom: 10px;
 }
 #footer h2{
-    color: #a7b7cf;
+    color: white;
     font-weight: 500;
     font-size: 1.8rem;
     letter-spacing: .1rem;
@@ -474,7 +474,7 @@ p{
     filter: grayscale(0)
 }
 #footer p{
-    color: #a7b7cf;
+    color: white;
     font-size: 1.3rem;
 }
 /* End Footer */
@@ -503,7 +503,7 @@ p{
 
 @keyframes text_reveal{
     100%{
-        color: #a7b7cf;
+        color: white;
     }
 }
 
@@ -565,7 +565,7 @@ p{
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid RoyalBlue;
+        border: 10px solid #a7b7cf;
     }
     #about .col-right{
         text-align: left;
